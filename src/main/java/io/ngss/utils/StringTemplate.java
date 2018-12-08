@@ -1,3 +1,5 @@
+package io.ngss.utils;
+
 import java.util.HashMap;
 
 public class StringTemplate {
