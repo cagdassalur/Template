@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.ngss.utils</groupId>
+    <artifactId>template</artifactId>
+    <version>1.0.0.RELEASE</version>
+
+    <name>Template</name>
+    <!--<description>Template</description>-->
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <!--<github.global.server>github</github.global.server>-->
+    </properties>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+
+
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>artifactory-releases</name>
+            <url>http://51.144.89.14/artifactory/libs-release</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>artifactory-snapshots</name>
+            <url>http://51.144.89.14/artifactory/libs-snapshot</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+
+</project>
