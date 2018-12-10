@@ -27,6 +27,10 @@ public class StringTemplate {
         this.map = valueMap;
     }
 
+    public StringTemplate(HashMap<String, String> valueMap) {
+        this.map = valueMap;
+    }
+
     public void setValueMap(HashMap<String,String> map){
         this.map = map;
     }
@@ -75,6 +79,10 @@ public class StringTemplate {
     public static String getContent(String template, String keyValueSeperator, String[] keyvalues){
         HashMap<String, String> map = parseKeyValues(keyValueSeperator, keyvalues);
         return getContent(template, map);
+    }
+
+    public String getContent(String template){
+        return getContent(template, this.map);
     }
 
     private static HashMap<String, String> parseKeyValues(String seperator, String[] keyvalues){

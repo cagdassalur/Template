@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="StringTemplateTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="9" failures="0" name="StringTemplateTest" time="0.005" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2018.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -67,9 +67,10 @@
   <testcase classname="StringTemplateTest" name="StringTemplateTest.testHashMap" time="0.005"/>
   <testcase classname="StringTemplateTest" name="StringTemplateTest.testArray" time="0"/>
   <testcase classname="StringTemplateTest" name="StringTemplateTest.testStaticArray" time="0"/>
-  <testcase classname="StringTemplateTest" name="StringTemplateTest.testHashMapConstructor" time="0"/>
-  <testcase classname="StringTemplateTest" name="StringTemplateTest.testStaticHashMap" time="0"/>
+  <testcase classname="StringTemplateTest" name="StringTemplateTest.testHashMapEmptyConstructor" time="0"/>
+  <testcase classname="StringTemplateTest" name="StringTemplateTest.testHashMapMapConstructor" time="0"/>
   <testcase classname="StringTemplateTest" name="StringTemplateTest.testHashMapTemplateToken" time="0"/>
   <testcase classname="StringTemplateTest" name="StringTemplateTest.testArrayCustomSeperator" time="0"/>
-  <testcase classname="StringTemplateTest" name="StringTemplateTest.testHashMapEmptyConstructor" time="0"/>
+  <testcase classname="StringTemplateTest" name="StringTemplateTest.testHashMapConstructor" time="0"/>
+  <testcase classname="StringTemplateTest" name="StringTemplateTest.testStaticHashMap" time="0"/>
 </testsuite>

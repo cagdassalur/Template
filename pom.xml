@@ -6,7 +6,7 @@
 
     <groupId>io.ngss.utils</groupId>
     <artifactId>template</artifactId>
-    <version>1.0.1.RELEASE</version>
+    <version>1.0.3.RELEASE</version>
 
     <name>Template</name>
     <!--<description>Template</description>-->

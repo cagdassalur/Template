@@ -39,6 +39,19 @@ public class StringTemplateTest {
     }
 
     @Test
+    public void testHashMapMapConstructor(){
+        HashMap<String, String> map = new HashMap<String, String>();
+        map.put("a", "0");
+        map.put("b", "1");
+
+        StringTemplate template = new StringTemplate(map);
+        template.setTemplate("ab{{b}}aba{{a}}aa");
+
+        assertEquals("ab1aba0aa", template.getContent());
+    }
+
+
+    @Test
     public void testHashMapEmptyConstructor(){
         StringTemplate template = new StringTemplate();
         template.setTemplate("ab{{b}}aba{{a}}aa");
